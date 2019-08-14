@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Vstudio_Vebug>
+			<version>1.0.0.0</version>
+		</Vstudio_Vebug>
+	</modules>
+	<admin>
+		<routers>
+			<adminhtml>
+				<args>
+					<modules>
+						<vstudio_vebug after="Mage_Adminhtml">Vstudio_Vebug_Adminhtml</vstudio_vebug>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+	</admin>
+	<global>
+		<resources>
+			<vstudio_vebug_setup>
+				<setup>
+					<module>Vstudio_Vebug</module>
+				</setup>
+			</vstudio_vebug_setup>
+		</resources>
+		<helpers>
+			<vstudio_vebug>
+				<class>Vstudio_Vebug_Helper</class>
+			</vstudio_vebug>
+		</helpers>
+	</global>
+</config>

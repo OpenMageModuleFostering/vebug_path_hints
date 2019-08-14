@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<menu>
+		<vstudio_vebug_menu module="vstudio_vebug" translate="title">
+			<title>Path Hints</title>
+			<sort_order>200</sort_order>
+			<children>
+				<vebug_enable_paths module="vstudio_vebug" translate="title">
+					<title>Enable Admin Paths</title>
+					<sort_order>1</sort_order>
+					<action>adminhtml/vebug_manage/enable/</action>
+				</vebug_enable_paths>
+				<vebug_disable_paths module="vstudio_vebug" translate="title">
+					<title>Disable Admin Paths</title>
+					<sort_order>2</sort_order>
+					<action>adminhtml/vebug_manage/disable/</action>
+				</vebug_disable_paths>
+				<vebug_enable_front_paths module="vstudio_vebug" translate="title">
+					<title>Enable Front Paths</title>
+					<sort_order>3</sort_order>
+					<action>adminhtml/vebug_manage/enableFront/</action>
+				</vebug_enable_front_paths>
+				<vebug_disable_front_paths module="vstudio_vebug" translate="title">
+					<title>Disable Front Paths</title>
+					<sort_order>4</sort_order>
+					<action>adminhtml/vebug_manage/disableFront/</action>
+				</vebug_disable_front_paths>
+			</children>
+		</vstudio_vebug_menu>
+	</menu>
+	<acl>
+		<resources>
+			<all>
+				<title>Allow Everything</title>
+			</all>
+			<admin>
+				<children>
+					<vstudio_vebug_menu translate="title" module="vstudio_vebug">
+						<title>Vebug Menu</title>
+						<sort_order>80</sort_order>
+						<children>
+							<vebug_enable_paths translate="title">
+								<title>Enable Admin Paths</title>
+								<sort_order>1</sort_order>
+							</vebug_enable_paths>
+							<vebug_disable_paths translate="title">
+								<title>Disable Admin Paths</title>
+								<sort_order>2</sort_order>
+							</vebug_disable_paths>
+							<vebug_enable_front_paths translate="title">
+								<title>Enable Front Paths</title>
+								<sort_order>3</sort_order>
+							</vebug_enable_front_paths>
+							<vebug_disable_front_paths translate="title">
+								<title>Disable Front Paths</title>
+								<sort_order>4</sort_order>
+							</vebug_disable_front_paths>
+						</children>
+					</vstudio_vebug_menu>
+					<system>
+						<children>
+							<config>
+								<children>
+									<vstudio_vebug_config module="vstudio_vebug">
+										<title>Venu Menu</title>
+									</vstudio_vebug_config>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

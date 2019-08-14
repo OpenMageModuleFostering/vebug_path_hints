@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+
+		<Vstudio_Vebug>
+			<active>true</active>
+			 <codePool>community</codePool>
+		</Vstudio_Vebug>
+
+	</modules>
+</config>
+

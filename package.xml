@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Vebug_Path_Hints</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/academic.php">("AFL") v. 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Easily turn on template path hints for both front and back end.</summary>
+    <description>Turn template path on with click of a button.</description>
+    <notes>First Stable release.</notes>
+    <authors><author><name>Leandro Villagran</name><user>veandro</user><email>veandro@outlook.com</email></author></authors>
+    <date>2014-04-15</date>
+    <time>04:05:42</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Vstudio_Vebug.xml" hash="af62a6d91f3e16a8b8bc99d77244b1f0"/></dir></dir></target><target name="magecommunity"><dir><dir name="Vstudio"><dir name="Vebug"><dir name="Helper"><file name="Data.php" hash="bdf4fd3d37ba3ecb64c6a4c1b99b12e2"/></dir><dir name="controllers"><dir name="adminhtml"><dir name="Vebug"><file name="manageController.php" hash="d3f0df3d8d1f25f66afcad89fc15357c"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="df028634434db2fdca0b1af77f620f3d"/><file name="config.xml" hash="17521e173cc296a4d25da667d3fe7949"/></dir><dir name="sql"><dir name="vstudio_vebug_setup"><file name="install-1.0.0.0.php" hash="d92f2a1dda74d9e033413ebf158e31aa"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.4.24</max></php></required></dependencies>
+</package>

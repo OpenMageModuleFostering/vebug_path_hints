@@ -1,16 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/Vebug_Path_Hints",
-    "type": "magento-module",
-    "license": "("AFL")-v.-3.0",
-    "homepage": "",
-    "description": "Easily turn on template path hints for both front and back end.",
-    "authors": [
-    {
-        "name": "Leandro Villagran",
-        "email": "veandro@outlook.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
